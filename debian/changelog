@@ -1,3 +1,9 @@
+pyoxenmq (1.1.0-1~ubuntu2604) resolute; urgency=medium
+
+  * Resolute deb
+
+ -- Jason Rhinelander <jason@session.foundation>  Tue, 07 Jul 2026 17:23:39 -0300
+
 pyoxenmq (1.1.0-1~ubuntu2510) questing; urgency=medium
 
   * Upgrade for compatibility with oxenmq 1.3

@@ -1,3 +1,9 @@
+pyoxenmq (1.1.0-1+1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Jason Rhinelander <jason@session.foundation>  Mon, 13 Jul 2026 12:12:20 -0300
+
 pyoxenmq (1.1.0-1) sid; urgency=medium
 
   * Upgrade for compatibility with oxenmq 1.3

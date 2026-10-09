@@ -1,3 +1,11 @@
+pyoxenmq (1.1.1-1~deb12) bookworm; urgency=medium
+
+  * Update deb.oxen.io apt signing key (adds 2026 sha256 signing subkey)
+  * ci-upload: upload .ddeb debug packages and .buildinfo files
+  * Take liboxenmq's compile and link flags from pkg-config
+
+ -- Jason Rhinelander <jason@session.foundation>  Fri, 09 Oct 2026 18:43:07 -0300
+
 pyoxenmq (1.1.0-2~deb12) bookworm; urgency=medium
 
   * Rebuild

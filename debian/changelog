@@ -1,3 +1,12 @@
+pyoxenmq (1.1.1-1~ubuntu2604) resolute; urgency=medium
+
+  * Update deb.oxen.io apt signing key (adds 2026 sha256 signing subkey)
+  * ci-upload: upload .ddeb debug packages and .buildinfo files
+  * Drop the xz override and use Ubuntu's default zstd .deb compression
+  * Take liboxenmq's compile and link flags from pkg-config
+
+ -- Jason Rhinelander <jason@session.foundation>  Fri, 09 Oct 2026 18:43:10 -0300
+
 pyoxenmq (1.1.0-2~ubuntu2604) resolute; urgency=medium
 
   * Rebuild

@@ -5,7 +5,7 @@ from setuptools import setup
 # Available at setup time due to pyproject.toml
 from pybind11.setup_helpers import Pybind11Extension, build_ext
 
-__version__ = "1.1.1"
+__version__ = "1.1.2"
 
 
 # liboxenmq's headers need more than the default include path: oxenmq.h includes zmq.hpp, which

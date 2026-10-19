@@ -3,7 +3,7 @@ Priority: optional
 Maintainer: Jason Rhinelander <jason@oxen.io>
 Build-Depends:
     debhelper-compat (= 11),
-    liboxenmq-dev (>= 1.2.8~),
+    liboxenmq-dev (>= 1.3.2-6~),
     libsodium-dev,
     pkgconf,
     pybind11-dev,

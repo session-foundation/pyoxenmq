@@ -770,7 +770,7 @@ the background).)")
             send_option::queue_failure qfail;
             if (kwargs.contains("queue_failure"))
                 qfail.callback = [f = kwargs["queue_failure"].cast<std::function<void(std::string error)>>()]
-                    (const zmq::error_t* exc) {
+                    (const std::exception* exc) {
                         if (exc)
                             f(exc->what());
                     };

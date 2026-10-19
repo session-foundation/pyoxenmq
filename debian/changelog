@@ -1,3 +1,11 @@
+pyoxenmq (1.1.2-1~deb14) forky; urgency=medium
+
+  * Add required pkgconf dep
+  * Add missing libsodium dep
+  * Take std::exception in queue_failure callback
+
+ -- Jason Rhinelander <jason@session.foundation>  Mon, 19 Oct 2026 13:32:56 -0300
+
 pyoxenmq (1.1.1-1~deb14) forky; urgency=medium
 
   * Update deb.oxen.io apt signing key (adds 2026 sha256 signing subkey)
